@@ -1,0 +1,25 @@
+/*
+property tranformasi
+scale(angka), scaleX(angka), scaleY(angka) memperbesar/memperkecil
+rotate(deg), rotateX(deg), rotateY(deg) memutar
+skew(deg), skewX(deg), skewY(deg) membuat condong/miring
+translate(px), translateX(px), translateY(px) mengubah posisi
+*/
+
+p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.kotak {
+    width: 200px;
+    height: 200px;
+    background-color: lightskyblue;
+    margin: 50px auto 0;
+    transition: 1s;
+}
+
+.kotak:hover {
+    transform: scale(1.5);
+}

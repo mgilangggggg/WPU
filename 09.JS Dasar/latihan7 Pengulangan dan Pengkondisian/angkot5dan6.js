@@ -1,0 +1,28 @@
+// Angkot 5
+var jmlAngkot = 10;
+var angkotBeroperasi = 6;
+
+for (var noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++) {
+    if (noAngkot <= 6) {
+        console.log('Angkot No. ' + noAngkot + ' beroperasi dengan baik.');
+    } else if (noAngkot === 8 || noAngkot === 10) {
+        console.log('Angkot No. ' + noAngkot + ' sedang lembur.');
+    } else {
+        console.log('Angkot No. ' + noAngkot + ' sedang tidak beroperasi.');
+    }
+}
+
+// Ankot 6
+var jmlAngkot = 10;
+var angkotBeroperasi = 6;
+
+// Pengkondisian menggunakan Else If dan tipe datanya and, or, not
+for (var noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++) {
+    if (noAngkot <= 6 && noAngkot !== 5) {
+        console.log('Angkot No. ' + noAngkot + ' beroperasi dengan baik.');
+    } else if (noAngkot === 8 || noAngkot === 10 || noAngkot === 5) {
+        console.log('Angkot No. ' + noAngkot + ' sedang lembur.');
+    } else {
+        console.log('Angkot No. ' + noAngkot + ' sedang tidak dapat beroperasi.')
+    }
+}

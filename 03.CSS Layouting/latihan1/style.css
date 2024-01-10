@@ -1,0 +1,11 @@
+.navigasi li {
+    display: inline;
+}
+
+.main {
+    background-color: lightgreen;
+}
+
+.main span {
+    background-color: lightblue;
+}

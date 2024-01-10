@@ -1,0 +1,35 @@
+body {
+    font-family: arial;
+}
+
+/* separator h1, h2 koma artinya dan*/
+h1, h2 {
+    color: green;
+}
+
+/* separator ul li a spasi artinya yang ada di dalam */
+ul li a {
+    color: orange;
+}
+
+ol li a {
+    color: red;
+}
+
+/* id --> sebaiknya tidak digunakan untuk CSS (lebih baik gunakan class)*/
+#p1 {
+    color: orange;
+}
+
+/* class */
+.p2 {
+    color: red;
+}
+
+.tebal {
+    font-weight: bold;
+}
+
+p.tebal {
+    font-size: 25px;
+}

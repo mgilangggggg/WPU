@@ -1,0 +1,26 @@
+/* : pseudo class */
+.hello:link {
+    color: orange;
+}
+
+.hello:hover {
+    color: green;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.hello:active {
+    font-style: italic;
+}
+
+.hello:visited {
+    color: red;
+}
+
+li:nth-child(2n) a {
+    color: green;
+}
+
+p:last-of-type {
+    color: red;
+}
